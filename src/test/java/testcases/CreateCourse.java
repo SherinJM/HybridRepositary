@@ -12,7 +12,7 @@ public class CreateCourse extends BaseClass {
 
 	@Test
 	public void loginToApplication(String uName, String password) throws Exception {
-
+		System.out.println("Modified");
 	}
 
 }
