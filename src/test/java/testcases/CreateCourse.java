@@ -14,5 +14,9 @@ public class CreateCourse extends BaseClass {
 	public void loginToApplication(String uName, String password) throws Exception {
 		System.out.println("Modified");
 	}
+	
+	public void test1() {
+		System.out.println("test 1");
+	}
 
 }
