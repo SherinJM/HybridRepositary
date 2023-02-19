@@ -18,5 +18,9 @@ public class CreateCourse extends BaseClass {
 	public void test1() {
 		System.out.println("test 1");
 	}
+	
+	public void test2() {
+		System.out.println("test 1");
+	}
 
 }
