@@ -11,10 +11,9 @@ public class LoginPage {
 		this.driver = driver;
 	}
 
-	By userName = By.id("email1");
-	By password = By.id("password1");
-	//By loginBtn = By.xpath("//button[@type='submit']");
-	By loginBtn = By.xpath("//button[@type='submit']");
+	By userName = By.xpath("//input[@placeholder='Enter Email']");
+	By password = By.xpath("//input[@placeholder='Enter Password']");
+	By loginBtn = By.xpath("//button[contains(text(), 'Sign in')]");
 
 	public void loginToApp(String userName1, String password1) {
 		driver.findElement(userName).sendKeys(userName1);

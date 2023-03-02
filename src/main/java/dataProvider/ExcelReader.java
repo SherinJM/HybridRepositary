@@ -19,7 +19,7 @@ public class ExcelReader {
 
 		try {
 			// load excel
-			wb = new XSSFWorkbook(new FileInputStream(new File("./testData/loginData.xlsx")));
+			wb = new XSSFWorkbook(new FileInputStream(new File("./testData/testData.xlsx")));
 
 			// load sheet
 			XSSFSheet sheet = wb.getSheet(sheetName);
